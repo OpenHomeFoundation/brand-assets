@@ -46,7 +46,3 @@ Examples:
 2. Add the `logomark/`, `wordmark/`, and `lockup/` subdirectories, each with `svg/` and `png/` folders.
 3. Name files as `{variant}-{theme}.{ext}`.
 4. Update the brands table in this README.
-
-## License
-
-See [LICENSE](LICENSE) for details.
