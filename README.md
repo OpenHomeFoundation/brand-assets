@@ -2,6 +2,9 @@
 
 Source brand assets (logos, wordmarks, lockups) for the Open Home Foundation and its projects. For usage guidelines, see the [brand guidelines site](https://brands.openhomefoundation.io).
 
+## Copyright notice
+This logo is trademarked and the property of the Open Home Foundation. This means it is not available for commercial use without express written permission from the foundation. We regard commercial use as anything designed to market or promote a product, software or service that is for sale. Please contact partner@openhomefoundation.org for further information.
+
 ## Brands
 
 | Brand | Directory |
