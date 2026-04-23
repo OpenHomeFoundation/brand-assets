@@ -16,36 +16,40 @@ This logo is trademarked and the property of the Open Home Foundation. This mean
 
 ## Structure
 
-Each brand directory contains three asset variants, each with SVG and PNG formats:
+Each brand directory contains files for print (eps, pdf) and screens (png, svg):
 
 ```
 {brand}/
-├── logomark/
-│   ├── svg/
-│   └── png/
-├── wordmark/
-│   ├── svg/
-│   └── png/
-└── lockup/
-    ├── svg/
-    └── png/
+├── print
+    ├── lockup
+        ├── inline
+        ├── main
+        └── stacked
+    └── logomark
+├── screen
+    ├── lockup
+        ├── inline
+        ├── main
+        └── stacked
+    └── logomark
 ```
 
 ## Naming Convention
 
-All files follow: `{variant}-{theme}.{ext}`
+All files follow: `{brand}-{type}-{variant}-{theme}-{background}.{ext}`
 
-- **Variants**: `logomark`, `wordmark`, `lockup`
-- **Themes**: `color` (full color), `white` (reversed for dark backgrounds), `black` (monochrome)
+- **Type**: `logomark`, `wordmark`, `lockup` (logomark + wordmark)
+- **Variant**: `inline`, `main`, `stacked`
+- **Themes**: `color` (full color), `monochrome` (one color)
+- **Background**: `on-dark` (for dark backgrounds), `on-bright` (for bright backgrounds)
 
 Examples:
-- `open-home-foundation/logomark/svg/logomark-color.svg`
-- `home-assistant/lockup/png/lockup-white.png`
-- `music-assistant/wordmark/svg/wordmark-black.svg`
+- `open-home-foundation/print/logomark/OHF-mark-color-on-bright-cmyk.eps`
+- `home-assistant/screen/lockup/HA-lockup-main-color-on-dark.png`
 
 ## Adding a New Brand
 
 1. Create a directory using the brand's kebab-case name (e.g., `my-project/`).
-2. Add the `logomark/`, `wordmark/`, and `lockup/` subdirectories, each with `svg/` and `png/` folders.
-3. Name files as `{variant}-{theme}.{ext}`.
+2. Add the needed folder structure.
+3. Name files as `{brand}-{type}-{variant}-{theme}-{background}.{ext}`.
 4. Update the brands table in this README.
