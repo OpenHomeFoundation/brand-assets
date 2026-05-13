@@ -42,10 +42,10 @@ All files follow: `{brand}-{type}-{variant}-{theme}-{background}.{ext}`
 - **Type**: `logomark`, `wordmark`, `lockup` (logomark + wordmark)
 - **Variant**: `inline`, `main`, `stacked`
 - **Themes**: `color` (full color), `monochrome` (one color)
-- **Background**: `on-dark` (for dark backgrounds), `on-bright` (for bright backgrounds)
+- **Background**: `on-dark` (for dark backgrounds), `on-light` (for light backgrounds)
 
 Examples:
-- `open-home-foundation/logo/print/logomark/OHF-mark-color-on-bright-cmyk.eps`
+- `open-home-foundation/logo/print/logomark/OHF-mark-color-on-light-cmyk.eps`
 - `home-assistant/logo/screen/lockup/HA-lockup-main-color-on-dark.png`
 
 ## Adding a New Brand
