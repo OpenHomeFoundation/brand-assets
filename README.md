@@ -17,7 +17,7 @@ This logo is trademarked and the property of the Open Home Foundation. This mean
 
 ## Structure
 
-Each brand directory groups assets by type (currently `logo/`, with room for more in future). Logos are provided for print (eps, pdf) and screens (png, svg):
+Each brand directory groups assets by type (`logo/`, plus `font/` where a brand has its own typeface). Logos are provided for print (eps, pdf) and screens (png, svg):
 
 ```
 {brand}/
