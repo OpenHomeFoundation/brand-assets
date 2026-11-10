@@ -13,10 +13,11 @@ This logo is trademarked and the property of the Open Home Foundation. This mean
 | Home Assistant | `home-assistant/` |
 | Music Assistant | `music-assistant/` |
 | ESPHome | `esphome/` |
+| Sendspin | `sendspin/` |
 
 ## Structure
 
-Each brand directory groups assets by type (currently `logo/`, with room for more in future). Logos are provided for print (eps, pdf) and screens (png, svg):
+Each brand directory groups assets by type (`logo/`, plus `font/` where a brand has its own typeface). Logos are provided for print (eps, pdf) and screens (png, svg):
 
 ```
 {brand}/
@@ -42,7 +43,7 @@ All files follow: `{brand}-{type}-{variant}-{theme}-{background}.{ext}`
 - **Type**: `logomark`, `wordmark`, `lockup` (logomark + wordmark)
 - **Variant**: `inline`, `main`, `stacked`
 - **Themes**: `color` (full color), `monochrome` (one color)
-- **Background**: `on-dark` (for dark backgrounds), `on-light` (for light backgrounds)
+- **Background**: `on-dark` (for dark backgrounds), `on-light` (for light backgrounds), `on-red` (Sendspin only, for its red brand background)
 
 Examples:
 - `open-home-foundation/logo/print/logomark/OHF-mark-color-on-light-cmyk.eps`
