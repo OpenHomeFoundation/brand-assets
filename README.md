@@ -36,6 +36,20 @@ Each brand directory groups assets by type (`logo/`, plus `font/` where a brand 
         └── logomark
 ```
 
+### Home Assistant hardware
+
+Lockups for Home Assistant hardware products (HA logomark + product name) have a folder per product, with the same `logo/` layout:
+
+```
+home-assistant/hardware/
+├── aux-2/logo/{print,screen}/lockup/{main,stacked}
+├── voice-pe/logo/{print,screen}/lockup/{main,stacked}
+├── zbt-2/logo/{print,screen}/lockup/{main,stacked}
+└── zwa-2/logo/{print,screen}/lockup/{main,stacked}
+```
+
+Files are named `HA-{product}-lockup-{variant}-{theme}-{background}.{ext}`, e.g. `home-assistant/hardware/zbt-2/logo/screen/lockup/main/HA-ZBT-2-lockup-main-color-on-light.svg`.
+
 ## Naming Convention
 
 All files follow: `{brand}-{type}-{variant}-{theme}-{background}.{ext}`
