@@ -36,6 +36,22 @@ Each brand directory groups assets by type (`logo/`, plus `font/` where a brand 
         └── logomark
 ```
 
+### Hardware products
+
+Lockups for hardware products (brand logomark + product name) have a folder per product inside the brand, with the same `logo/` layout:
+
+```
+esphome/hardware/
+└── starter-kit/logo/{print,screen}/lockup/{inline,main}
+home-assistant/hardware/
+├── aux-2/logo/{print,screen}/lockup/{main,stacked}
+├── voice-pe/logo/{print,screen}/lockup/{main,stacked}
+├── zbt-2/logo/{print,screen}/lockup/{main,stacked}
+└── zwa-2/logo/{print,screen}/lockup/{main,stacked}
+```
+
+Files are named `{brand}-{product}-lockup-{variant}-{theme}-{background}.{ext}`, e.g. `home-assistant/hardware/zbt-2/logo/screen/lockup/main/HA-ZBT-2-lockup-main-color-on-light.svg` or `esphome/hardware/starter-kit/logo/screen/lockup/inline/ESPH-Starter-Kit-lockup-inline-color-on-dark.svg`.
+
 ## Naming Convention
 
 All files follow: `{brand}-{type}-{variant}-{theme}-{background}.{ext}`
